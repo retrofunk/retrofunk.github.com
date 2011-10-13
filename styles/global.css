@@ -43,7 +43,7 @@ body {
 .main-nav-ul li a {
 	background: #000;
 	border: 1px solid #111;
-	border-bottom: 5px solid #555;
+	border-top: 5px solid #555;
 	color: #ccc;
 	display: block;
 	padding: 10px 20px;
@@ -51,8 +51,8 @@ body {
 }
 .main-nav-ul li a:hover {
 	background: #000;
+	border-top-color: #007799;
 	color: #fff;
-	border-bottom-color: #007799;
 }
 .main-content-wrap {
 	background: #eee;
