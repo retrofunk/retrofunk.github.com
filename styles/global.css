@@ -3,6 +3,9 @@
 body {
 
 }
+.clear {
+	clear: both;
+}
 .main-header-wrap {
 	background: #000;
 	width: 100%;
@@ -27,4 +30,27 @@ body {
 .main-nav-ul li a {
 	display: block;
 	float: left;
+	width: 100px;
+}
+.main-content-wrap {
+	background: #000;
+	width: 100%;
+}
+.main-content {
+	background: #999;
+	height: 500px;
+	margin: 0 auto;
+	padding: 10px;
+	width: 970px;
+}
+.main-footer-wrap {
+	background: #000;
+	width: 100%;
+}
+.main-footer {
+	background: #000;
+	height: 100px;
+	margin: 0 auto;
+	padding: 10px;
+	width: 970px;
 }
