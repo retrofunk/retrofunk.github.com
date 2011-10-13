@@ -26,8 +26,11 @@ body {
 	margin: 0 auto;
 	width: 970px;
 }
+.main-nav-ul {
+	border-bottom: 5px solid #555;
+}
 .main-nav-ul li a {
-	background: #357484;
+	background: #000;
 	border: 1px solid #111;
 	border-bottom: 5px solid #555;
 	color: #fff;
