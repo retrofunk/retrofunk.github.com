@@ -29,6 +29,7 @@ a:hover {
 .social-soundcloud {
 	background: url('/images/soundcloud_orange_white_16.png') no-repeat 0 0;
 	display: inline-block;
+	float: left;
 	height: 16px;
 	width: 16px;
 }
