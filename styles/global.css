@@ -19,6 +19,8 @@ body {
 }
 .main-nav-wrap {
 	background: #000;
+	border-bottom: 1px solid #007799;
+	border-top: 1px solid #007799;
 	width: 100%;
 }
 .main-nav {
@@ -28,8 +30,6 @@ body {
 }
 .main-nav-ul {
 	background: #000;
-	border-bottom: 5px solid #555;
-	border-top: 2px solid #555;
 	margin: 0 auto;
 	width: 100%;
 	float: left;
