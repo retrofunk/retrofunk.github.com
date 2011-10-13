@@ -30,6 +30,7 @@ body {
 	background: #000;
 	border-bottom: 5px solid #555;
 	border-top: 2px solid #555;
+	margin: 0 auto;
 	width: 100%;
 }
 .main-nav-ul li a {
@@ -44,7 +45,7 @@ body {
 }
 .main-nav-ul li a:hover {
 	background: #000;
-	color: #fff;
+	color: #ccc;
 	border-bottom-color: #007799;
 }
 .main-content-wrap {
