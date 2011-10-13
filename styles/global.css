@@ -19,7 +19,7 @@ body {
 }
 .main-nav-wrap {
 	background: #111;
-	border-top: 1px solid #007799;
+	border-top: 5px solid #5b0838;
 	width: 100%;
 }
 .main-nav {
@@ -32,7 +32,7 @@ body {
 	float: left;
 	font-size: 13px;
 	font-weight: bold;
-	margin: 0 auto;
+	margin: -5px auto 0 auto;
 	text-transform: uppercase;
 	width: 100%;
 }
@@ -66,9 +66,6 @@ body {
 .main-nav-ul li a.home {
 	border-top-color: #2b7faf;
 	color: #2b7faf;
-}
-.main-nav-ul li a.home:hover {
-	color: #fff;
 }
 .main-nav-ul li a.about {
 	border-top-color: #99374f;
