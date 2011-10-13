@@ -19,7 +19,6 @@ body {
 }
 .main-nav-wrap {
 	background: #111;
-	border-bottom: 1px solid #007799;
 	border-top: 1px solid #007799;
 	width: 100%;
 }
@@ -69,6 +68,7 @@ body {
 }
 .main-nav-ul li a.home:hover {
 	background: #2b7faf;
+	color: #fff;
 }
 .main-nav-ul li a.about {
 	border-top-color: #99374f;
