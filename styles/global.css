@@ -55,11 +55,12 @@ body {
 	width: 100px;
 }
 .main-nav-ul li a {
-	background: #000;
+	background: #111;
 	border-top-color: #007799;
 	color: #fff;
 }
 .main-nav-ul li a:hover {
+	background: #000;
 	color: #fff;
 }
 .main-nav-ul li a.home {
@@ -67,8 +68,6 @@ body {
 	color: #2b7faf;
 }
 .main-nav-ul li a.home:hover {
-	background: #2b7faf;
-	border-top-color: #111;
 	color: #fff;
 }
 .main-nav-ul li a.about {
