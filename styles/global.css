@@ -108,7 +108,7 @@ a:hover {
 	color: #869324
 }
 .main-content-wrap {
-	background: #eee;
+	background: #eee url('/images/arbutus-bg-repeat-square.jpg') repeat 0 0;
 	width: 100%;
 }
 .main-content {
