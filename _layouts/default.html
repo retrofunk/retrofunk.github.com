@@ -24,10 +24,12 @@
 	<![endif]-->
 </head>
 <body>
-<div id='top'></div>
-<div class='main-wrap'>
+	<div class='main-header-wrap'>
+		<header class='main-header'>
+			<a class='nav-logo' href='/'>[logo]</a>
+		</header>
+	</div>
 	<nav class='main-side-nav'>
-		<a class='nav-logo' href='/'></a>
 		<ul class='main-nav'>
 			<li><a id='home' href='/'>Home</a></li>
 			<li><a id='about' href='/about'>About</a></li>
@@ -39,7 +41,7 @@
 	<div class='content-container'>
 		{{ content }}
 		<footer class='main-footer'>
-			<p>&#169; <script>displayYear();</script> <a href='https://plus.google.com/102174577273194387652?rel=author' rel='author'>miguel mota</a> / powered by <a href='http://jekyllrb.com'>jekyll</a></p>
+			<p>&#169; <script>displayYear();</script> RetroFunk</p>
 		</footer>
 	</div>
 	<script>
@@ -55,7 +57,5 @@
   		})();
 	</script>
 	<noscript><div class='noscript'>please enable javascript</div></noscript>
-	<script src='http://s7.addthis.com/js/250/addthis_widget.js#username=miguelmota'></script>
-</div>
 </body>
 </html>
