@@ -31,11 +31,11 @@
 	<div class='main-nav-wrap'>
 		<nav class='main-nav'>
 			<ul class='main-nav-ul'>
-				<li><a id='home' href='/'>Home</a></li>
-				<li><a id='about' href='/about'>About</a></li>
-				<li><a id='events' href='/events'>Events</a></li>
-				<li><a id='downloads' href='/downloads'>Downloads</a></li>
-				<li><a id='contact' href='/contact'>Contact</a></li>
+				<li><a class='home' href='/'>Home</a></li>
+				<li><a class='about' href='/about'>About</a></li>
+				<li><a class='events' href='/events'>Events</a></li>
+				<li><a class='downloads' href='/downloads'>Downloads</a></li>
+				<li><a class='contact' href='/contact'>Contact</a></li>
 			</ul>
 			<div class='clear'></div>
 		</nav>
@@ -51,7 +51,7 @@
 		</footer>
 	</div>
 	<script>
-		$("#<decorator:getProperty property='meta.page' />").addClass('selected');
+		$(".<decorator:getProperty property='meta.page' />").addClass('selected');
   		var _gaq = _gaq || [];
   		_gaq.push(['_setAccount', 'UA-12642068-1']);
   		_gaq.push(['_setDomainName', '.miguelmota.com']);

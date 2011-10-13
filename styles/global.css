@@ -55,6 +55,26 @@ body {
 	border-top-color: #007799;
 	color: #fff;
 }
+a.home:hover {
+	border-top-color: #47505a;
+	color: #47505a;
+}
+a.about:hover {
+	border-top-color: #662d3c;
+	color: #662d3c;
+}
+a.events:hover {
+	border-top-color: #88352f;
+	color: #88352f;
+}
+a.downloads:hover {
+	border-top-color: #8c5e1b;
+	color: #8c5e1b;
+}
+a.contact:hover {
+	border-top-color: #373d0e;
+	color: #373d0e;
+}
 .main-content-wrap {
 	background: #eee;
 	width: 100%;
