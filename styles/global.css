@@ -25,6 +25,7 @@ body {
 }
 .main-nav {
 	background: #000;
+	border-top: 1px solid #007799;
 	margin: 0 auto;
 	width: 970px;
 }
