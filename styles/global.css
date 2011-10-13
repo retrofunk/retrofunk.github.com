@@ -18,7 +18,7 @@ body {
 	width: 970px;
 }
 .main-nav-wrap {
-	background: #000;
+	background: #111;
 	border-bottom: 1px solid #007799;
 	border-top: 1px solid #007799;
 	width: 100%;
@@ -48,6 +48,11 @@ body {
 	display: block;
 	padding: 10px 20px;
 	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,.5);
+	transition: all linear .1s;
+	-moz-transition: all linear .1s;
+	-o-transition: all linear .1s;
+	-webkit-transition: all linear .1s;
 	width: 100px;
 }
 .main-nav-ul li a:hover {
