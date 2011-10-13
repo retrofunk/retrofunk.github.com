@@ -5,21 +5,18 @@
       xsi:schemaLocation='http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd'>
 <url>
-  <loc>http://www.miguelmota.com/</loc>
+  <loc>http://www.retrofunk.net/</loc>
 </url>
 <url>
-  <loc>http://www.miguelmota.com/stream</loc>
+  <loc>http://www.retrofunk.net/about</loc>
 </url>
 <url>
-  <loc>http://www.miguelmota.com/about</loc>
+  <loc>http://www.retrofunk.net/events</loc>
 </url>
 <url>
-  <loc>http://www.miguelmota.com/portfolio</loc>
+  <loc>http://www.retrofunk.net/downloads</loc>
 </url>
 <url>
-  <loc>http://www.miguelmota.com/contact</loc>
-</url>
-<url>
-  <loc>http://www.miguelmota.com/blog</loc>
+  <loc>http://www.retrofunk.net/contact</loc>
 </url>
 </urlset>
