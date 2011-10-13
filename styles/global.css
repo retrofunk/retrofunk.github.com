@@ -16,6 +16,10 @@ a:hover {
 .clear {
 	clear: both;
 }
+h1.title {
+	font-size: 26px;
+	padding-bottom: 10px;
+}
 .main-top-bar-wrap {
 	background: #000;
 	width: 100%;
