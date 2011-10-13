@@ -56,24 +56,24 @@ body {
 	color: #fff;
 }
 .main-nav-ul li a.home:hover {
-	border-top-color: #47505a;
-	color: #47505a;
+	border-top-color: #2b7faf;
+	color: #2b7faf;
 }
 .main-nav-ul li a.about:hover {
-	border-top-color: #662d3c;
-	color: #662d3c;
+	border-top-color: #99374f;
+	color: #99374f;
 }
 .main-nav-ul li a.events:hover {
-	border-top-color: #88352f;
-	color: #88352f;
+	border-top-color: #aa3027;
+	color: #aa3027;
 }
 .main-nav-ul li a.downloads:hover {
-	border-top-color: #8c5e1b;
-	color: #8c5e1b;
+	border-top-color: #ba7434;
+	color: #ba7434;
 }
 .main-nav-ul li a.contact:hover {
-	border-top-color: #373d0e;
-	color: #373d0e;
+	border-top-color: #869324;
+	color: #869324
 }
 .main-content-wrap {
 	background: #eee;
