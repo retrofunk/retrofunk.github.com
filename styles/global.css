@@ -39,7 +39,7 @@ body {
 }
 .main-nav-ul li {
 	float: left;
-	margin: -10px
+	margin-top: -5px;
 }
 .main-nav-ul li a {
 	background: #111;
