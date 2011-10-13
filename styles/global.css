@@ -29,6 +29,7 @@ body {
 }
 .main-nav-ul {
 	background: #111;
+	border-top: 5px solid #5b0838;
 	float: left;
 	font-size: 13px;
 	font-weight: bold;
@@ -41,7 +42,6 @@ body {
 }
 .main-nav-ul li a {
 	background: #111;
-	border: 1px solid #111;
 	border-top: 5px solid #555;
 	color: #ccc;
 	display: block;
