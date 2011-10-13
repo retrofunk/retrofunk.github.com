@@ -24,12 +24,12 @@ body {
 	width: 100%;
 }
 .main-nav {
-	background: #000;
+	background: #111;
 	margin: 0 auto;
 	width: 970px;
 }
 .main-nav-ul {
-	background: #000;
+	background: #111;
 	float: left;
 	font-size: 13px;
 	font-weight: bold;
@@ -41,7 +41,7 @@ body {
 	float: left;
 }
 .main-nav-ul li a {
-	background: #000;
+	background: #111;
 	border: 1px solid #111;
 	border-top: 5px solid #555;
 	color: #ccc;
