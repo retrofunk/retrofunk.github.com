@@ -8,6 +8,7 @@ body {
 }
 .main-top-bar-wrap {
 	background: #000;
+	height: 50px;
 	width: 100%;
 }
 .main-top-bar {
