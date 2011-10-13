@@ -24,7 +24,6 @@ body {
 .main-nav {
 	background: #222;
 	margin: 0 auto;
-	padding: 10px;
 	width: 970px;
 }
 .main-nav-ul li a {
@@ -41,11 +40,11 @@ body {
 	border-bottom-color: #007799;
 }
 .main-content-wrap {
-	background: #000;
+	background: #eee;
 	width: 100%;
 }
 .main-content {
-	background: #000;
+	background: #eee;
 	height: 500px;
 	margin: 0 auto;
 	padding: 10px;
