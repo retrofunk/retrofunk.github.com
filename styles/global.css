@@ -22,7 +22,7 @@ body {
 	width: 100%;
 }
 .main-nav {
-	background: #777;
+	background: #000;
 	margin: 0 auto;
 	padding: 10px;
 	width: 970px;
@@ -30,6 +30,7 @@ body {
 .main-nav-ul li a {
 	display: block;
 	float: left;
+	padding: 5px 10px;
 	width: 100px;
 }
 .main-content-wrap {
