@@ -68,6 +68,7 @@ body {
 }
 .main-nav-ul li a.home:hover {
 	background: #2b7faf;
+	border-top-color: #111;
 	color: #fff;
 }
 .main-nav-ul li a.about {
@@ -82,7 +83,7 @@ body {
 	border-top-color: #ba7434;
 	color: #ba7434;
 }
-.main-nav-ul li a.contact:hover {
+.main-nav-ul li a.contact {
 	border-top-color: #869324;
 	color: #869324
 }
