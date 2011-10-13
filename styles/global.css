@@ -27,9 +27,10 @@ body {
 	width: 970px;
 }
 .main-nav-ul li a {
-	background: #222;
+	background: #357484;
 	border: 1px solid #111;
 	border-bottom: 5px solid #555;
+	color: #fff;
 	display: block;
 	float: left;
 	padding: 10px 20px;
