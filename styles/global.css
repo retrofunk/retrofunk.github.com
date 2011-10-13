@@ -17,11 +17,11 @@ body {
 	width: 970px;
 }
 .main-header-wrap {
-	background: #000 url('/images/retrofunk-logo-small.png') repeat-x 0 0;
+	background: #000;
 	width: 100%;
 }
 .main-header {
-	background: #000 url('/images/retrofunk-logo-small.png') no-repeat 0 -125px;
+	background: #000 url('/images/retrofunk-logo-small.png') no-repeat center -125px;
 	height: 300px;
 	margin: 0 auto;
 	padding: 10px;
