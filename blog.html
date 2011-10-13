@@ -1,0 +1,42 @@
+---
+layout: default
+title: Blog
+---
+<h1 class='title'>Miguel<span class='mota'>Mota</span><span class='slash'>/</span><span class='sub'>Blog</span></h1>
+
+<section class='content blog'>
+	{% include header.html %}
+	<div class='posti'>
+		{% for post in site.posts %}
+			<div class='post blog-p'>
+				<h1 class='post-title'><a id='post-link' href='{{ post.url }}'>{{ post.title }}</a></h1>
+				<div class='post-info'>
+					<p><a class='post-date' href='{{ post.url }}'>{{ post.date | date_to_string }}</a> 
+					<a class='dsq-comment-count' href='{{ post.url }}#disqus_thread' data-disqus-identifier='{{ post.url }}'>comments</a></p>
+	 			</div>
+	 			<div id='post-content'>
+					{{ post.content }}
+				</div>
+				<div class='tags-wrap'>
+					{% for category in post.categories %}
+						<span name='{{ category | first }}'>[{{ category | first }}]</span>
+					{% endfor %}
+				</div>
+				<div class='share-container'>
+					<g:plusone class='plus-one-button' href='http://www.miguelmota.com{{ post.url }}' size='medium'></g:plusone>
+					<a class='twitter-share-button' href='http://twitter.com/share' data-text='{{ post.title }}' data-url='http://www.miguelmota.com{{ post.url }}' data-via='miguel_mota' data-count='horizontal'>Tweet</a>
+				</div>
+			</div>
+		{% endfor %}
+		<a class='archive-link' href='/archive'>view archive &#187;</a>
+	</div>
+	<script>
+	    var disqus_shortname = 'miguelmota';
+	    (function () {
+	        var s = document.createElement('script'); s.async = true;
+	        s.type = 'text/javascript';
+	        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+	        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+	    }());
+	</script>
+</section>
