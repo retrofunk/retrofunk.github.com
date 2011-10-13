@@ -25,7 +25,6 @@ body {
 }
 .main-nav {
 	background: #000;
-	border-top: 1px solid #007799;
 	margin: 0 auto;
 	width: 970px;
 }
@@ -48,6 +47,7 @@ body {
 	color: #ccc;
 	display: block;
 	padding: 10px 20px;
+	text-align: center;
 	width: 100px;
 }
 .main-nav-ul li a:hover {
