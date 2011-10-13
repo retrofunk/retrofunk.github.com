@@ -6,6 +6,15 @@ body {
 .clear {
 	clear: both;
 }
+.main-top-bar-wrap {
+	background: #000;
+	width: 100%;
+}
+.main-top-bar {
+	background: #000;
+	margin: 0 auto;
+	width: 970px;
+}
 .main-header-wrap {
 	background: #000;
 	width: 100%;
