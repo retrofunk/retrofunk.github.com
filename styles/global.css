@@ -55,24 +55,30 @@ body {
 	-webkit-transition: all linear .1s;
 	width: 100px;
 }
-.main-nav-ul li a:hover {
+.main-nav-ul li a {
 	background: #000;
 	border-top-color: #007799;
 	color: #fff;
 }
-.main-nav-ul li a.home:hover {
+.main-nav-ul li a:hover {
+	color: #fff;
+}
+.main-nav-ul li a.home {
 	border-top-color: #2b7faf;
 	color: #2b7faf;
 }
-.main-nav-ul li a.about:hover {
+.main-nav-ul li a.home:hover {
+	background: #2b7faf;
+}
+.main-nav-ul li a.about {
 	border-top-color: #99374f;
 	color: #99374f;
 }
-.main-nav-ul li a.events:hover {
+.main-nav-ul li a.events {
 	border-top-color: #aa3027;
 	color: #aa3027;
 }
-.main-nav-ul li a.downloads:hover {
+.main-nav-ul li a.downloads {
 	border-top-color: #ba7434;
 	color: #ba7434;
 }
