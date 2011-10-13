@@ -33,7 +33,7 @@ body {
 	width: 100px;
 }
 .main-content-wrap {
-	background: #000;
+	background: #777;
 	width: 100%;
 }
 .main-content {
@@ -49,6 +49,7 @@ body {
 }
 .main-footer {
 	background: #000;
+	color: #fff;
 	height: 100px;
 	margin: 0 auto;
 	padding: 10px;
