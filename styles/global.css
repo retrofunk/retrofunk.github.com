@@ -18,7 +18,10 @@ a:hover {
 }
 h1.title {
 	font-size: 26px;
-	padding-bottom: 10px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	
 }
 .main-top-bar-wrap {
 	background: #000;
