@@ -19,7 +19,7 @@ body {
 }
 .main-nav-wrap {
 	background: #111;
-	border-top: 5px solid #5b0838;
+	border-top: 5px solid #999;
 	width: 100%;
 }
 .main-nav {
@@ -29,7 +29,7 @@ body {
 }
 .main-nav-ul {
 	background: #111;
-	border-top: 5px solid #5b0838;
+	border-top: 5px solid #999;
 	float: left;
 	font-size: 13px;
 	font-weight: bold;
