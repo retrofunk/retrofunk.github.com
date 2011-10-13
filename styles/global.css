@@ -3,6 +3,16 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
 }
+a {
+	color: #99374f;
+	transition: all linear .1s;
+	-moz-transition: all linear .1s;
+	-o-transition: all linear .1s;
+	-webkit-transition: all linear .1s;
+}
+a:hover {
+	color: #993780;
+}
 .clear {
 	clear: both;
 }
@@ -59,10 +69,6 @@ body {
 	padding: 10px 20px;
 	text-align: center;
 	text-shadow: 0 1px 0 rgba(0,0,0,.5);
-	transition: all linear .1s;
-	-moz-transition: all linear .1s;
-	-o-transition: all linear .1s;
-	-webkit-transition: all linear .1s;
 	width: 100px;
 }
 .main-nav-ul li a {
