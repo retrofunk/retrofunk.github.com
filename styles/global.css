@@ -56,6 +56,9 @@ h1.title {
 	padding: 10px;
 	width: 970px;
 }
+#slider {
+	height: 300px;
+}
 .main-nav-wrap {
 	background: #111;
 	border-top: 5px solid #999;
