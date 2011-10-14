@@ -54,6 +54,7 @@ h1.title {
 	height: 300px;
 	margin: 0 auto;
 	padding: 10px;
+	overflow: hidden;
 	width: 970px;
 }
 #slider {
