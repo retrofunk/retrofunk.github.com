@@ -57,6 +57,7 @@ h1.title {
 }
 #slider {
 	height: 300px;
+	margin-top: -165px;
 	width: 970px;
 }
 .nivoSlider {
@@ -66,7 +67,7 @@ h1.title {
 	display: none;
 	left: 0px;
 	position: absolute;
-	top: -165px;
+	top: 0px;
 }
 .main-nav-wrap {
 	background: #111;
