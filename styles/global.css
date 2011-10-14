@@ -58,6 +58,7 @@ h1.title {
 }
 #slider {
 	height: 300px;
+	margin-top: -150px;
 }
 .nivoSlider {
 	position:relative;
