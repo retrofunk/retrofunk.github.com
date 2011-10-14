@@ -1,6 +1,6 @@
 $(window).load(function(){
 	$('#slider').nivoSlider({
-		effect: 'sliceDown,fold',
+		effect: 'sliceDown,sliceUp',
 		directionNav: false,
 		controlNav: false
 	});
