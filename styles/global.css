@@ -52,7 +52,7 @@ h1.title {
 	width: 100%;
 }
 .main-header {
-	background: #000 url('/images/retrofunk-header.png') no-repeat 0 -165px;
+	background: #000 url('/images/retrofunk-header.png') no-repeat 0 0;
 	height: 300px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -60,7 +60,6 @@ h1.title {
 }
 #slider {
 	height: 300px;
-	margin-top: -165px;
 	width: 970px;
 }
 .nivoSlider {
@@ -68,9 +67,9 @@ h1.title {
 }
 .nivoSlider img {
 	display: none;
-	left: 0px;
+	left: 0;
 	position: absolute;
-	top: 0px;
+	top: 0;
 }
 .main-nav-wrap {
 	background: #111;
