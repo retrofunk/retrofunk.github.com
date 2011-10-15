@@ -129,21 +129,41 @@ h1.title {
 	border-top-color: #843b4d;
 	color: #843b4d;
 }
+.main-nav-ul li a.about:hover {
+	border-top-color: #af4f65;
+	color: #af4f65;
+}
 .main-nav-ul li a.events {
 	border-top-color: #ad4239;
 	color: #ad4239;
+}
+.main-nav-ul li a.events:hover {
+	border-top-color: #d64e44;
+	color: #d64e44;
 }
 .main-nav-ul li a.gallery {
 	border-top-color: #bc6a27;
 	color: #bc6a27;
 }
+.main-nav-ul li a.gallery:hover {
+	border-top-color: #e27e31;
+	color: #e27e31;
+}
 .main-nav-ul li a.downloads {
 	border-top-color: #b79d33;
 	color: #b79d33;
 }
+.main-nav-ul li a.downloads:hover {
+	border-top-color: #ddbd3e;
+	color: #ddbd3e;
+}
 .main-nav-ul li a.contact {
 	border-top-color: #869324;
 	color: #869324;
+}
+.main-nav-ul li a.contact:hover {
+	border-top-color: #aebf2f;
+	color: #aebf2f;
 }
 .main-content-wrap {
 	background: #ddd url('/images/arbutus-bg-repeat-square.jpg') repeat 0 0;
