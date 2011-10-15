@@ -121,6 +121,10 @@ h1.title {
 	border-top-color: #44758c;
 	color: #44758c;
 }
+.main-nav-ul li a.home:hover {
+	border-top-color: #5697b5;
+	color: #5697b5;
+}
 .main-nav-ul li a.about {
 	border-top-color: #843b4d;
 	color: #843b4d;
