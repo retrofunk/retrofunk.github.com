@@ -122,10 +122,18 @@ h1.title {
 	color: #2b7faf;
 }
 .main-nav-ul li a.about {
-	border-top-color: #99374f;
-	color: #99374f;
+	border-top-color: #672d96;
+	color: #672d96;
+}
+.main-nav-ul li a.abo3ut {
+	border-top-color: #aa3027;
+	color: #aa3027;
 }
 .main-nav-ul li a.events {
+	border-top-color: #aa3027;
+	color: #aa3027;
+}
+.main-nav-ul li a.gallery {
 	border-top-color: #aa3027;
 	color: #aa3027;
 }
