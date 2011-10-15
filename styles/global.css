@@ -76,7 +76,7 @@ h1.title {
 }
 .main-nav-wrap {
 	background: #111;
-	border-top: 5px solid #999;
+	border-top: 5px solid #777;
 	width: 100%;
 }
 .main-nav {
@@ -86,7 +86,7 @@ h1.title {
 }
 .main-nav-ul {
 	background: #111;
-	border-top: 5px solid #999;
+	border-top: 5px solid #777;
 	float: left;
 	font-size: 13px;
 	font-weight: bold;
