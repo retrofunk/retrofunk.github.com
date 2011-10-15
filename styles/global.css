@@ -16,6 +16,9 @@ a:hover {
 .clear {
 	clear: both;
 }
+.selected {
+	color: #999;
+}
 p {
 	padding-bottom: 10px;
 }
