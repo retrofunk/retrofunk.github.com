@@ -140,7 +140,7 @@ h1.title {
 }
 .main-content {
 	background: #ddd url('/images/arbutus-bg-repeat-square.jpg') repeat 0 0;
-	height: 500px;
+	min-height: 500px;
 	margin: 0 auto;
 	padding: 20px 10px;
 	width: 970px;
