@@ -116,8 +116,9 @@ h1.title {
 .main-nav-ul li a:hover {
 	background: #000;
 	color: #fff;
-	border-top-width: 8px;
-	margin-top: -3px;
+	border-top-width: 6px;
+	position: relative;
+	bottom: -1px;
 }
 .main-nav-ul li a.home {
 	border-top-color: #44758c;
