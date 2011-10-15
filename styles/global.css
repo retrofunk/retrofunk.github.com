@@ -118,7 +118,7 @@ h1.title {
 	color: #fff;
 	border-top-width: 6px;
 	position: relative;
-	bottom: -1px;
+	bottom: 0;
 }
 .main-nav-ul li a.home {
 	border-top-color: #44758c;
