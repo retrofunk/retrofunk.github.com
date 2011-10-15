@@ -118,20 +118,16 @@ h1.title {
 	color: #fff;
 }
 .main-nav-ul li a.home {
-	border-top-color: #2b7faf;
-	color: #2b7faf;
+	border-top-color: #2675a0;
+	color: #2675a0;
 }
 .main-nav-ul li a.about {
-	border-top-color: #672d96;
-	color: #672d96;
-}
-.main-nav-ul li a.abo3ut {
-	border-top-color: #aa3027;
-	color: #aa3027;
+	border-top-color: #7a1e99;
+	color: #7a1e99;
 }
 .main-nav-ul li a.events {
-	border-top-color: #aa3027;
-	color: #aa3027;
+	border-top-color: #b5251b;
+	color: #b5251b;
 }
 .main-nav-ul li a.gallery {
 	border-top-color: #aa3027;
@@ -143,7 +139,7 @@ h1.title {
 }
 .main-nav-ul li a.contact {
 	border-top-color: #869324;
-	color: #869324
+	color: #869324;
 }
 .main-content-wrap {
 	background: #ddd url('/images/arbutus-bg-repeat-square.jpg') repeat 0 0;
