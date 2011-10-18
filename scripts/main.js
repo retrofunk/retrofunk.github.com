@@ -65,7 +65,7 @@ $(document).ready(function(){
 	// Display flickr images
 	$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
 			  {
-			    tags: "trance energy",
+			    tags: "trance, energy",
 			    tagmode: "any",
 			    format: "json"
 			  },
