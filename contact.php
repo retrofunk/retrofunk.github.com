@@ -1,6 +1,6 @@
 <?php
 header('Access-Control-Allow-Origin: *');
-define('WEBMASTER_EMAIL', 'djretrofunk@gmail.com');
+define('WEBMASTER_EMAIL', 'donpedrocastaneda@yahoo.com');
 
 $name = stripslashes($_GET['name']);
 $email = stripslashes($_GET['email']);
