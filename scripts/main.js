@@ -12,9 +12,9 @@ $(window).load(function(){
 $(document).ready(function(){
 	
 	
-	$('.main-nav-ul a').live('click', function(){
+	//$('.main-nav-ul a').live('click', function(){
 		$('.content').load('/about .content');
-	});
+	//});
 	
 	
 	// Open external links in new tab
