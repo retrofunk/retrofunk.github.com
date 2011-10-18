@@ -241,6 +241,16 @@ textarea {
 	height: 200px;
 	width: 550px;
 }
+.button {
+	background: #ccc;
+	border: 1px solid #999;
+	color: #222;
+	padding: 8px 16px;
+}
+.button:hover {
+	border: 1px solid #35b0e0;
+	color: #000;
+}
 .input {
 	padding-bottom: 10px;
 }
