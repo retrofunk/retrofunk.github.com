@@ -42,7 +42,7 @@ $(document).ready(function(){
 			},
 			message: {
 				required: true,
-				minlength: 10
+				minlength: 5
 			}
 		},
 		messages: {
