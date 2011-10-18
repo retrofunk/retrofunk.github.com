@@ -33,6 +33,10 @@ p {
 	line-height: 120%;
 	padding-bottom: 10px;
 }
+.p-title {
+	padding-bottom: 5px;
+	text-decoration: underline;
+}
 h1.title {
 	font-size: 26px;
 	font-weight: bold;
@@ -263,7 +267,7 @@ h1.title {
 	font-weight: bold;
 	padding: 20px;
 	text-align: center;
-	width: 400px;
+	width: 100%;
 }
 
 
