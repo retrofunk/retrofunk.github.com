@@ -40,6 +40,7 @@ p {
 	display: block;
 	margin-bottom: 5px;
 	padding: 5px;
+	text-align: center;
 }
 h1.title {
 	font-size: 26px;
