@@ -25,6 +25,9 @@ $(document).ready(function(){
 	$('input:text, input:password, textarea').focus(function(){
 		$(this).css('color', '#222');
 	});
+	$('.contact-message').focus(function(){
+		$(this+':find("[message]")').hide();
+	});
 	
 	// On submit contact form button; validate
 	$('.submit-contact-form').live('click', function(){
