@@ -99,7 +99,7 @@ h1.title {
 	display: none;
 	left: 0;
 	position: absolute;
-	top: 0;
+	top: 10px;
 }
 .nivo-controlNav {
 	position:absolute;
