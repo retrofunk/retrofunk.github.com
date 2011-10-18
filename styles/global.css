@@ -220,7 +220,10 @@ h1.title {
 }
 
 
-
+.contact-form {
+	width: 550px;
+	position: relative;
+}
 input[type=text],
 input[type=password],
 textarea {
@@ -239,7 +242,7 @@ textarea:focus {
 }
 textarea {
 	height: 200px;
-	width: 550px;
+	width: 100%;
 }
 .button {
 	background: #ccc;
