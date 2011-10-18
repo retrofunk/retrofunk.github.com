@@ -19,10 +19,16 @@ $(document).ready(function(){
 		});
 		
 		$('.content').load($(this).attr('href')+' .content', function(){
-			$('.loader').hide();
+			
+			$('.loader').hide(0, function(){
+				$('.content').show();
+			});
+
 		});
+		
 		location.hash = $(this).attr('href').substr(1);
 		return false;
+		
 	});
 	
 	
@@ -34,8 +40,13 @@ $(document).ready(function(){
 		});
 
 		if($(this).attr('href').substr(1) == location.hash.substr(1)) {
+			
 			$('.content').load($(this).attr('href')+' .content', function(){
-				$('.loader').hide();
+				
+				$('.loader').hide(0, function(){
+					$('.content').show();
+				});
+				
 			});
 		}	
 	});
