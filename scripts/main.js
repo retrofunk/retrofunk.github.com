@@ -21,4 +21,34 @@ $(document).ready(function(){
 		return false;
 	});
 	
+	// Validate contact form
+	$('.contact-form').validate({
+		rules: {
+			name: {
+				required: true
+			},
+			email: {
+				required: true,
+				email: true
+			},
+			message: {
+				required: true,
+				minlength: 10
+			}
+		},
+		messages: {
+			name: {
+				required: ''
+			},
+			email: {
+				required: '',
+				email: ''
+			},
+			message: '',
+			minlength: ''
+			},
+		onkeyup: true,
+		debug: true
+	});
+	
 });
