@@ -24,7 +24,6 @@ $(document).ready(function(){
 	// Load page based on hash
 	$('.main-nav-ul a').each(function(){
 		if($(this).attr('href').substr(1) == location.hash.substr(1)) {
-			alert('test');
 			window.location = $(this).attr('href');
 		}	
 	});
