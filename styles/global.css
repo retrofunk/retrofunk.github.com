@@ -58,6 +58,12 @@ h1.title {
 .top-bar-audio {
 	float: left;
 }
+.equalizer {
+	background: url('/images/equalizer.gif') no-repeat 0 0;
+	display: inline-block;
+	height: 75px;
+	width: 527px;
+}
 .main-top-bar img {
 	margin-right: 5px;
 	vertical-align: middle;
