@@ -259,6 +259,12 @@ textarea {
 .input {
 	padding-bottom: 10px;
 }
+.error {
+	color: #ff0000;
+}
+input.error {
+	border: 1px solid #ff0000;
+}
 .contact-qrcode {
 	background: #ccc url('/images/qrcode.png') no-repeat 0 0;
 	display: block;

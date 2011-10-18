@@ -38,14 +38,14 @@ $(document).ready(function(){
 		},
 		messages: {
 			name: {
-				required: ''
+				required: 'name required'
 			},
 			email: {
-				required: '',
-				email: ''
+				required: 'email address required',
+				email: 'invalid email address'
 			},
-			message: '',
-			minlength: ''
+			message: 'message required',
+			minlength: 'message must be longer than 10 characters'
 			},
 		onkeyup: true,
 		debug: true
