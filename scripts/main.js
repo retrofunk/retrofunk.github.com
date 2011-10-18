@@ -13,7 +13,7 @@ $(document).ready(function(){
 	
 	
 	$('.main-nav-ul a').live('click', function(){
-		$('.content').load($(this).attr(href)+' .content');
+		$('.content').load('/about .content');
 	});
 	
 	
