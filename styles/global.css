@@ -22,12 +22,10 @@ a:hover {
 .left-column {
 	float: left;
 	width: 59%;
-	border: 1px solid red;
 }
 .right-column {
 	float: right;
 	width: 39%;
-	border: 1px solid blue;
 }
 p {
 	padding-bottom: 10px;
@@ -39,6 +37,12 @@ h1.title {
 	text-transform: uppercase;
 	
 }
+
+
+
+
+
+
 .main-top-bar-wrap {
 	background: #000;
 	width: 100%;
@@ -60,6 +64,10 @@ h1.title {
 	height: 16px;
 	width: 16px;
 }
+
+
+
+
 .main-header-wrap {
 	background: #000;
 	width: 100%;
@@ -71,6 +79,13 @@ h1.title {
 	overflow: hidden;
 	width: 970px;
 }
+
+
+
+
+
+
+
 #slider {
 	height: 300px;
 	width: 970px;
@@ -84,6 +99,13 @@ h1.title {
 	position: absolute;
 	top: 0;
 }
+
+
+
+
+
+
+
 .main-nav-wrap {
 	background: #111;
 	border-top: 5px solid #333;
@@ -178,6 +200,11 @@ h1.title {
 	border-top-color: #aebf2f;
 	color: #aebf2f;
 }
+
+
+
+
+
 .main-content-wrap {
 	background: #ddd url('/images/arbutus-bg-repeat-square.jpg') repeat 0 0;
 	width: 100%;
@@ -189,6 +216,10 @@ h1.title {
 	padding: 20px 10px;
 	width: 970px;
 }
+
+
+
+
 .contact-qrcode {
 	background: #ccc url('/images/qrcode.png') no-repeat 0 0;
 	display: block;
@@ -198,6 +229,11 @@ h1.title {
 .phone-wrap {
 	padding: 20px;
 }
+
+
+
+
+
 .main-footer-wrap {
 	background: #000;
 	width: 100%;
@@ -211,6 +247,9 @@ h1.title {
 	padding: 25px 0;
 	width: 970px;
 }
+
+
+
 .jbl-logo {
 	background: url('/images/jbl-logo-32.png') no-repeat 0 0;
 	display: inline-block;
