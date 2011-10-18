@@ -42,7 +42,7 @@ $(document).ready(function(){
 			},
 			message: {
 				required: true,
-				minlength: 5
+				minlength: 10
 			}
 		},
 		messages: {
@@ -53,7 +53,7 @@ $(document).ready(function(){
 				required: 'email address required',
 				email: 'invalid email address'
 			},
-			message: 'message required',
+			message: 'message must be longer than 10 characters',
 			minlength: 'message must be longer than 10 characters'
 			},
 		onkeyup: true
