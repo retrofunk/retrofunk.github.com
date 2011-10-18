@@ -229,7 +229,7 @@ textarea {
 	color: #222;
 	font-size: 18px;
 	padding: 5px;
-	width: 400px;
+	width: 300px;
 }
 input[type=text]:focus,
 input[type=password]:focus,
@@ -239,7 +239,7 @@ textarea:focus {
 }
 textarea {
 	height: 200px;
-	width: 100%;
+	width: 550px;
 }
 .contact-qrcode {
 	background: #ccc url('/images/qrcode.png') no-repeat 0 0;
