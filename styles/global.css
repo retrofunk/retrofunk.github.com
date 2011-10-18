@@ -265,8 +265,12 @@ textarea {
 	font-size: 14px;
 	padding-left: 5px;
 }
-input.error,
+input.error {
+	border: 1px solid #ff0000;
+}
 textarea.error {
+	color: #222;
+	font-size: 18px;
 	border: 1px solid #ff0000;
 }
 .contact-qrcode {
