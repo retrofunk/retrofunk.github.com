@@ -52,7 +52,7 @@ $(document).ready(function(){
 	});
 	
 	// If contact form validates to true, then submit it
-	if ($('f.contact-form').valid() == true){	
+	if ($('.contact-form').valid() == true){	
 		var str = $('form.contact-form').serialize();
 		$.ajax({
 			type: 'get',
