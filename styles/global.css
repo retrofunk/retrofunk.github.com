@@ -102,24 +102,24 @@ h1.title {
 	top: 0;
 }
 .nivo-controlNav {
-	position:absolute;
 	bottom: 0;
+	position: absolute;
 	right: 10px;
 }
 .nivo-controlNav a {
-	display:block;
-	width:16px;
-	height: 20px;
 	background: url('/images/bullets.png') no-repeat;
-	text-indent:-9999px;
-	border:0;
-	float:left;
+	border: 0;
+	display: block;
+	float: left;
+	height: 20px;
 	opacity: .2;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)" !important;
 	filter: alpha(opacity=20) !important;
+	text-indent: -9999px;
+	width: 16px;
 }
 .nivo-controlNav a.active {
-	background-position:0 -22px;
+	background-position: 0 -22px;
 }
 
 
