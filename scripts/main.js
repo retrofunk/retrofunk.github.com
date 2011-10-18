@@ -14,7 +14,7 @@ $(document).ready(function(){
 	
 	$('.main-nav-ul a').live('click', function(){
 		$('.content').load($(this).attr('href')+' .content', function(){
-			location.hash = $(this).attr('href');
+			location.hash = $(this).attr('href').substr(1);
 		});
 		return false;
 	});
