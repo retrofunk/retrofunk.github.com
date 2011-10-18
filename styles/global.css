@@ -113,11 +113,10 @@ h1.title {
 	background: url('/images/bullets.png') no-repeat;
 	text-indent:-9999px;
 	border:0;
-	margin-right: 3px;
 	float:left;
 }
 .nivo-controlNav a.active {
-	background-position:0 -14px;
+	background-position:0 -22px;
 }
 
 
