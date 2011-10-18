@@ -62,6 +62,20 @@ $(document).ready(function(){
 		return false;
 	});
 	
+	// Display flickr images
+	$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+			  {
+			    tags: "trance energy",
+			    tagmode: "any",
+			    format: "json"
+			  },
+			  function(data) {
+			    $.each(data.items, function(i,item){
+			      $("<img/>").attr("src", item.media.m).appendTo("#images");
+			      if ( i == 3 ) return false;
+			    });
+			  });
+	
 	// Default test on input color
 	$('input:text, input:password, textarea').focus(function(){
 		$(this).css('color', '#222');
