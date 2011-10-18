@@ -257,6 +257,7 @@ h1.title {
 }
 .download-mp3 {
 	background: #ccc;
+	display: block;
 	font-size: 18px;
 	font-weight: bold;
 	padding: 20px;
