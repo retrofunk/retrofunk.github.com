@@ -22,6 +22,7 @@ $(document).ready(function(){
 			
 			$('.loader').hide(0, function(){
 				$('.content').show();
+				displayGallery();
 			});
 
 		});
@@ -63,6 +64,7 @@ $(document).ready(function(){
 	});
 	
 	// Display flickr images
+	function displayGallery() {
 	$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
 			  {
 			    tags: "trance energy",
@@ -75,6 +77,7 @@ $(document).ready(function(){
 			      if ( i == 32 ) return false;
 			    });
 			  });
+	}
 	
 	// Default test on input color
 	$('input:text, input:password, textarea').focus(function(){
