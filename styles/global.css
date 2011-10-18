@@ -192,3 +192,9 @@ h1.title {
 	padding: 25px 0;
 	width: 970px;
 }
+.jbl-logo {
+	background: url('/images/jbl-logo-32.png') no-repeat 0 0;
+	display: inline-block;
+	height: 32px;
+	width: 58px;
+}
