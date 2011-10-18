@@ -21,6 +21,9 @@ $(document).ready(function(){
 		return false;
 	});
 	
+	// Default test on input color
+	$('input:text').css({'color', '#aaa'});
+	
 	// On submit contact form button; validate
 	$('.submit-contact-form').live('click', function(){
 		
