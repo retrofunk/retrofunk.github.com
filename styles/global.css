@@ -219,7 +219,15 @@ h1.title {
 
 
 
-
+input[type=text],
+input[type=password].
+textarea {
+	background: #fff;
+	border: 1px solid #999;
+	font-size: 18px;
+	padding: 5px;
+	width: 200px;
+}
 .contact-qrcode {
 	background: #ccc url('/images/qrcode.png') no-repeat 0 0;
 	display: block;
