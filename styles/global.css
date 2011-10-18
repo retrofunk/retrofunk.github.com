@@ -275,6 +275,16 @@ h1.title {
 
 
 
+.gallery-image {
+	height: 64px;
+	padding: 5px;
+	width: 64px;
+}
+
+
+
+
+
 
 .download-wrap {
 	padding-bottom: 20px;

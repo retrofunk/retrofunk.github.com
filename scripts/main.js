@@ -71,8 +71,8 @@ $(document).ready(function(){
 			  },
 			  function(data) {
 			    $.each(data.items, function(i,item){
-			      $("<img/>").attr("src", item.media.m).appendTo("#images");
-			      if ( i == 3 ) return false;
+			      $("<img class='gallery-image' />").attr("src", item.media.m).appendTo("#images");
+			      if ( i == 32 ) return false;
 			    });
 			  });
 	
