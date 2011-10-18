@@ -101,18 +101,9 @@ h1.title {
 	position: absolute;
 	top: 0;
 }
-.nivo-controlNav a {
-	position: relative;
-	z-index: 9;
-	cursor: pointer;
-}
-.nivo-controlNav a.active {
-	font-weight: bold;
-}
 .nivo-controlNav {
 	position:absolute;
 	left:50%;
-	bottom:-42px;
     margin-left:-40px; /* Tweak this to center bullets */
 }
 .nivo-controlNav a {
