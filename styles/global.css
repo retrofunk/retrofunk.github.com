@@ -103,10 +103,8 @@ h1.title {
 }
 .nivo-controlNav {
 	position:absolute;
-	left:50%;
 	bottom: 0;
 	right: 0;
-    margin-left:-40px; /* Tweak this to center bullets */
 }
 .nivo-controlNav a {
 	display:block;
