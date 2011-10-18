@@ -227,7 +227,14 @@ h1.title {
 	width: 250px;	
 }
 .phone-wrap {
+	font-weight: bold;
 	padding: 20px;
+}
+.phone-icon {
+	background: #ccc url('/images/pictos/24/315.png.png') no-repeat 0 0;
+	display: inline-block;
+	height: 24px;
+	width: 24px;	
 }
 
 
