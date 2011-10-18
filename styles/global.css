@@ -20,10 +20,12 @@ a:hover {
 	color: #999;
 }
 .left-column {
+	float: left;
 	width: 40%;
 	border: 1px solid red;
 }
 .right-column {
+	float: right;
 	width: 60%;
 	border: 1px solid blue;
 }
@@ -186,6 +188,15 @@ h1.title {
 	margin: 0 auto;
 	padding: 20px 10px;
 	width: 970px;
+}
+.contact-qrcode {
+	background: url('/images/qrcode.png') no-repeat 0 0;
+	display: block;
+	height: 250px;
+	width: 250px;	
+}
+.phone-wrap {
+	padding: 20px;
 }
 .main-footer-wrap {
 	background: #000;
