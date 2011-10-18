@@ -22,7 +22,9 @@ $(document).ready(function(){
 	});
 	
 	// Default test on input color
-	$('input:text').focus({'color', '#222'});
+	$('input:text').focus(function(){
+		$(this).css('color', '#222');
+	});
 	
 	// On submit contact form button; validate
 	$('.submit-contact-form').live('click', function(){
