@@ -56,8 +56,7 @@ $(document).ready(function(){
 			message: 'message required',
 			minlength: 'message must be longer than 10 characters'
 			},
-		onkeyup: true,
-		debug: true
+		onkeyup: true
 	});
 	
 	// If contact form validates to true, then submit it
@@ -73,7 +72,7 @@ $(document).ready(function(){
 			error: function(){
 
 				$('.submit-contact-form').html('<span>sending...</span>');
-				$('.contact-form').fadeOut(100);
+				$('.contact-form').fadeOut(20);
 				setTimeout(function(){
 					$('.contact-form').html('<p>Sorry, there was an error. Message was not sent.</p>');
 				}, 300);
@@ -90,7 +89,7 @@ $(document).ready(function(){
 	function success(){
 		
 		$('.submit-contact-form').html('<span>sending...</span>');
-		$('.contact-form').fadeOut(100);
+		$('.contact-form').fadeOut(20);
 
 		setTimeout(function(){
 			$('.contact-form').html('<div class="thank-you">Thanks <strong>'+$('input#name').val()+'</strong>,</div><p>I will get back to you shortly.</p>').fadeIn(1200);	
