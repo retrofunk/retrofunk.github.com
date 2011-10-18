@@ -108,9 +108,9 @@ h1.title {
 }
 .nivo-controlNav a {
 	display:block;
-	width:10px;
-	height: 14px;
-	background: red url('/images/bullets.png') no-repeat;
+	width:5px;
+	height: 12px;
+	background: red url('/images/bullets.png') no-repeat 0 0;
 	text-indent:-9999px;
 	border:0;
 	margin-right: 3px;
