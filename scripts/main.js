@@ -26,7 +26,7 @@ $(document).ready(function(){
 		$(this).css('color', '#222');
 	});
 	$('.contact-message').focus(function(){
-		$(this+':find("[message]")').hide();
+		$(this, ':find("[message]")').hide();
 	});
 	
 	// On submit contact form button; validate
