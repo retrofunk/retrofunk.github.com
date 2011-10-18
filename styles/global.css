@@ -249,7 +249,9 @@ textarea {
 	border: 1px solid #999;
 	color: #222;
 	float: right;
+	font-weight: bold;
 	padding: 8px 16px;
+	text-transform: uppercase;
 }
 .button:hover {
 	border: 1px solid #35b0e0;
