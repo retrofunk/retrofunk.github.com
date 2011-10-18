@@ -73,7 +73,7 @@ $(document).ready(function(){
 			error: function(){
 
 				$('.submit-contact-form').html('<span>sending...</span>');
-				$('.contact-form').slideUp(300);
+				$('.contact-form').fadeOut(100);
 				setTimeout(function(){
 					$('.contact-form').html('<p>Sorry, there was an error. Message was not sent.</p>');
 				}, 300);
@@ -90,10 +90,10 @@ $(document).ready(function(){
 	function success(){
 		
 		$('.submit-contact-form').html('<span>sending...</span>');
-		$('.contact-form').slideUp(300);
+		$('.contact-form').fadeOut(100);
 
 		setTimeout(function(){
-			$('.contact-form').html('<p>Thank you <strong>'+$('input#name').val()+'</strong>, <br />Your message has been successfully sent!<br />I will get in touch with you soon.</p>').fadeIn(1200);	
+			$('.contact-form').html('<div class="thank-you">Thanks <strong>'+$('input#name').val()+'</strong>,</div><p>I will get back to you shortly.</p>').fadeIn(1200);	
 		}, 300);
 		
 	}
