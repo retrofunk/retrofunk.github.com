@@ -261,8 +261,11 @@ textarea {
 }
 .error {
 	color: #ff0000;
+	font-size: 14px;
+	padding-left: 5px;
 }
-input.error {
+input.error,
+textarea.error {
 	border: 1px solid #ff0000;
 }
 .contact-qrcode {
