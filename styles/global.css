@@ -228,7 +228,7 @@ h1.title {
 }
 .phone-wrap {
 	font-weight: bold;
-	padding: 20px;
+	padding: 0 20px;
 }
 .phone-icon {
 	background: url('/images/pictos/24/315.png') no-repeat 0 0;
