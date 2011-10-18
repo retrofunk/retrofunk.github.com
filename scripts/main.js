@@ -46,6 +46,7 @@ $(document).ready(function(){
 				
 				$('.loader').hide(0, function(){
 					$('.content').show();
+					displayGallery();
 				});
 				
 			});
