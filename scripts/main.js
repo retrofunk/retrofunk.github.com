@@ -11,13 +11,21 @@ $(window).load(function(){
 
 $(document).ready(function(){
 	
-	
+	// Load page based on link href
 	$('.main-nav-ul a').live('click', function(){
 		$('.content').load($(this).attr('href')+' .content', function(){
 			
 		});
 		location.hash = $(this).attr('href').substr(1);
 		return false;
+	});
+	
+	
+	// Load page based on hash
+	$('.main-nav-ul a').each(function(){
+		if($(this).attr('href').substr(1) == location.hash) {
+			window.location = $(this).attr('href');
+		}		
 	});
 	
 	
