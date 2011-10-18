@@ -22,12 +22,12 @@ a:hover {
 .left-column {
 	float: left;
 	position: relative;
-	width: 59%;
+	width: 700px;
 }
 .right-column {
 	float: right;
 	position: relative;
-	width: 39%;
+	width: 250px;
 }
 p {
 	padding-bottom: 10px;
