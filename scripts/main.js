@@ -13,8 +13,9 @@ $(document).ready(function(){
 	
 	// Load page based on link href
 	$('.main-nav-ul a').live('click', function(){
+		$('.loader').show();
 		$('.content').load($(this).attr('href')+' .content', function(){
-			
+			$('.loader').hide();
 		});
 		location.hash = $(this).attr('href').substr(1);
 		return false;
@@ -23,9 +24,10 @@ $(document).ready(function(){
 	
 	// Load page based on hash
 	$('.main-nav-ul a').each(function(){
+		$('.loader').show();
 		if($(this).attr('href').substr(1) == location.hash.substr(1)) {
 			$('.content').load($(this).attr('href')+' .content', function(){
-				
+				$('.loader').hide();
 			});
 		}	
 	});

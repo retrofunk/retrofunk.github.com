@@ -52,6 +52,12 @@ h1.title {
 	text-transform: uppercase;
 	
 }
+.loader {
+	background: url('/images/ajax-loader.gif') no-repeat 0 0;
+	display: none;
+	height: 48px;
+	width: 48px;
+}
 
 
 
