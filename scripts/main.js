@@ -22,7 +22,7 @@ $(document).ready(function(){
 	});
 	
 	// Default test on input color
-	$('input:text').focus(function(){
+	$('input:text, input:password, textarea').focus(function(){
 		$(this).css('color', '#222');
 	});
 	
