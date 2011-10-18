@@ -21,10 +21,12 @@ a:hover {
 }
 .left-column {
 	float: left;
+	position: relative;
 	width: 59%;
 }
 .right-column {
 	float: right;
+	position: relative;
 	width: 39%;
 }
 p {
@@ -229,14 +231,15 @@ textarea {
 	padding: 5px;
 	width: 400px;
 }
-input[type=text],
-input[type=password],
-textarea {
+input[type=text]:focus,
+input[type=password]:focus,
+textarea:focus {
 	border: 1px solid #35b0e0;
 	color: #222;
 }
 textarea {
 	height: 200px;
+	width: 100%;
 }
 .contact-qrcode {
 	background: #ccc url('/images/qrcode.png') no-repeat 0 0;
