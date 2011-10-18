@@ -108,11 +108,12 @@ h1.title {
 }
 .nivo-controlNav a {
 	display:block;
-	width:5px;
-	height:12px;
-	background:url('/images/bullets.png') no-repeat;
+	width:10px;
+	height: 14px;
+	background: red url('/images/bullets.png') no-repeat;
 	text-indent:-9999px;
 	border:0;
+	margin-right: 3px;
 	float:left;
 }
 .nivo-controlNav a.active {
