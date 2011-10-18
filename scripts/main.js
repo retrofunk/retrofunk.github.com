@@ -13,7 +13,9 @@ $(document).ready(function(){
 	
 	
 	//$('.main-nav-ul a').live('click', function(){
-		$('.content').load('/about .content');
+		$('.content').load('/about .content', function(){
+			alert('testing...');
+		});
 	//});
 	
 	
