@@ -65,14 +65,14 @@ $(document).ready(function(){
 	// Display flickr images
 	$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
 			  {
-			    tags: "trance, energy",
+			    tags: "trance energy",
 			    tagmode: "any",
 			    format: "json"
 			  },
 			  function(data) {
 			    $.each(data.items, function(i,item){
 			      $("<img class='gallery-image' />").attr("src", item.media.m).appendTo("#images");
-			      if ( i == 200 ) return false;
+			      if ( i == 32 ) return false;
 			    });
 			  });
 	
