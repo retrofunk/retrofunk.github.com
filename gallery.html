@@ -8,4 +8,20 @@ title: Gallery
 	
 	<p>[gallery coming soon]</p>
 	
+	<script>
+	
+	$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+			  {
+			    tags: "dj",
+			    tagmode: "any",
+			    format: "json"
+			  },
+			  function(data) {
+			    $.each(data.items, function(i,item){
+			      $("<img/>").attr("src", item.media.m).appendTo("#images");
+			      if ( i == 3 ) return false;
+			    });
+			  });</script>
+	</script>
+	
 </div>
