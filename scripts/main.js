@@ -11,6 +11,12 @@ $(window).load(function(){
 
 $(document).ready(function(){
 	
+	
+	$('.main-nav-ul a').live('click', function(){
+		$('.content').load($(this).attr(href)+' .content');
+	});
+	
+	
 	// Open external links in new tab
 	$('a[href^=http]').live('click', function(){
 		window.open(this.href);
