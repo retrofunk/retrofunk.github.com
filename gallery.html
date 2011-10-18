@@ -8,11 +8,15 @@ title: Gallery
 	
 	<p>[gallery coming soon]</p>
 	
-	<script>
+	<p>showing images with tag <strong>trance energy</strong> form <a href='http://www.flickr.com/search/?q=trance%20energy'>flickr</a>.</p>
 	
+	
+	<div id="images"></div>
+	  
+	<script>
 	$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
 			  {
-			    tags: "dj",
+			    tags: "trance energy",
 			    tagmode: "any",
 			    format: "json"
 			  },
