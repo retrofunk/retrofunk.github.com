@@ -51,4 +51,42 @@ $(document).ready(function(){
 		debug: true
 	});
 	
+	// If contact form validates to true, then submit it
+	if ($('f.contact-form').valid() == true){	
+		var str = $('form.contact-form').serialize();
+		$.ajax({
+			type: 'get',
+			url: 'http://miguelmota.webuda.com/retrofunk/contact.php',
+			data: str,
+			success: function(){
+				success();
+			},
+			error: function(){
+
+				$('.submit-contact-form').html('<span>sending...</span>');
+				$('.contact-form').slideUp(300);
+				setTimeout(function(){
+					$('.contact-form').html('<p>Sorry, there was an error. Message was not sent.</p>');
+				}, 300);
+				
+			}
+		});
+		return false;
+	}
+	else
+		return false;
+	});
+
+	// Hide contact form and display thank you message
+	function success(){
+		
+		$('.submit-contact-form').html('<span>sending...</span>');
+		$('.contact-form').slideUp(300);
+
+		setTimeout(function(){
+			$('.contact-form').html('<p>Thank you <strong>'+$('input#name').val()+'</strong>, <br />Your message has been successfully sent!<br />I will get in touch with you soon.</p>').fadeIn(1200);	
+		}, 300);
+		
+	}
+	
 });
