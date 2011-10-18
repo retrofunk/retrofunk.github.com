@@ -19,6 +19,14 @@ a:hover {
 .selected {
 	color: #999;
 }
+.left-column {
+	width: 40%;
+	border: 1px solid red;
+}
+.right-column {
+	width: 60%;
+	border: 1px solid blue;
+}
 p {
 	padding-bottom: 10px;
 }
