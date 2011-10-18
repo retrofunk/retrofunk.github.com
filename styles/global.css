@@ -253,13 +253,15 @@ h1.title {
 
 
 .download-wrap {
-	background: #ccc;
 	margin-bottom: 20px;
-	padding: 10px;
 }
 .download-mp3 {
+	background: #ccc;
 	font-size: 18px;
 	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
 }
 
 
