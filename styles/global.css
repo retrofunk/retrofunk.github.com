@@ -23,17 +23,20 @@ a:hover {
 	float: left;
 	position: relative;
 	width: 700px;
+	border: 1px solid red;
 }
 .right-column {
 	float: right;
 	position: relative;
 	width: 250px;
+		border: 1px solid red;
 }
 p {
 	line-height: 120%;
 	padding-bottom: 10px;
 }
 .p-title {
+	display: block;
 	padding-bottom: 5px;
 	text-decoration: underline;
 }
