@@ -109,7 +109,7 @@ h1.title {
 .nivo-controlNav a {
 	display:block;
 	width:5px;
-	height: 12px;
+	height: 5px;
 	background: black url('/images/bullets.png') no-repeat 0 0;
 	text-indent:-9999px;
 	border:0;
