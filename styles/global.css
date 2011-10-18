@@ -21,12 +21,12 @@ a:hover {
 }
 .left-column {
 	float: left;
-	width: 58%;
+	width: 59%;
 	border: 1px solid red;
 }
 .right-column {
 	float: right;
-	width: 38%;
+	width: 39%;
 	border: 1px solid blue;
 }
 p {
