@@ -16,6 +16,9 @@ a:hover {
 .clear {
 	clear: both;
 }
+.hide {
+	display: none;
+}
 .selected {
 	color: #999;
 }
