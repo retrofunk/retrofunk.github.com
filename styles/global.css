@@ -245,6 +245,7 @@ textarea {
 	background: #ccc;
 	border: 1px solid #999;
 	color: #222;
+	float: right;
 	padding: 8px 16px;
 }
 .button:hover {
