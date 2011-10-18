@@ -12,11 +12,10 @@ $(window).load(function(){
 $(document).ready(function(){
 	
 	
-	//$('.main-nav-ul a').live('click', function(){
-		$('.main-content').load('/about', function(){
-			alert('testing...');
+	$('.main-nav-ul a').live('click', function(){
+		$('.content').load($(this).attr(href), function(){
 		});
-	//});
+	});
 	
 	
 	// Open external links in new tab
