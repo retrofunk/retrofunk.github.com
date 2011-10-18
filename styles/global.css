@@ -220,7 +220,7 @@ h1.title {
 
 
 input[type=text],
-input[type=password].
+input[type=password],
 textarea {
 	background: #fff;
 	border: 1px solid #999;
