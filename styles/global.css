@@ -190,7 +190,7 @@ h1.title {
 	width: 970px;
 }
 .contact-qrcode {
-	background: url('/images/qrcode.png') no-repeat 0 0;
+	background: #ccc url('/images/qrcode.png') no-repeat 0 0;
 	display: block;
 	height: 250px;
 	width: 250px;	
