@@ -224,9 +224,19 @@ input[type=password],
 textarea {
 	background: #fff;
 	border: 1px solid #999;
+	color: #222;
 	font-size: 18px;
 	padding: 5px;
-	width: 200px;
+	width: 400px;
+}
+input[type=text],
+input[type=password],
+textarea {
+	border: 1px solid #35b0e0;
+	color: #222;
+}
+textarea {
+	height: 200px;
 }
 .contact-qrcode {
 	background: #ccc url('/images/qrcode.png') no-repeat 0 0;
