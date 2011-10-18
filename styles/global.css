@@ -55,6 +55,9 @@ h1.title {
 	padding: 10px;
 	width: 970px;
 }
+.top-bar-audio {
+	float: left;
+}
 .main-top-bar img {
 	margin-right: 5px;
 	vertical-align: middle;
