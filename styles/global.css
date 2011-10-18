@@ -201,12 +201,12 @@ h1.title {
 .traktor-logo {
 	background: url('/images/traktor-logo-32.png') no-repeat 0 0;
 	display: inline-block;
-	height: 32px;
-	width: 213px;
+	height: 27px;
+	width: 180px;
 }
 .monster-logo {
-	background: url('/images/monster-logo-32.png') no-repeat 0 0;
+	background: url('/images/monster-logo-18.png') no-repeat 0 0;
 	display: inline-block;
-	height: 32px;
-	width: 298px;
+	height: 18px;
+	width: 175px;
 }
