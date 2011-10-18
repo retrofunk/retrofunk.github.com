@@ -72,7 +72,7 @@ $(document).ready(function(){
 			  function(data) {
 			    $.each(data.items, function(i,item){
 			      $("<img class='gallery-image' />").attr("src", item.media.m).appendTo("#images");
-			      if ( i == 32 ) return false;
+			      if ( i == 200 ) return false;
 			    });
 			  });
 	
