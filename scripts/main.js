@@ -21,6 +21,15 @@ $(document).ready(function(){
 		return false;
 	});
 	
+	// On submit contact form button; validate
+	$('.submit-contact-form').live('click', function(){
+		
+		// Create method to validate name
+		$.validator.addMethod('namecheck', function(value, element){
+			return this.optional(element) || /^[a-zA-Z]+?\s?[a-zA-Z]+?\s?[a-zA-Z]+$/.test(value);
+			
+	});
+	
 	// Validate contact form
 	$('.contact-form').validate({
 		rules: {
