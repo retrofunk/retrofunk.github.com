@@ -1,0 +1,181 @@
+div.jp-audio,
+div.jp-video {
+	font-size:.8em;
+
+	font-family:Verdana, Arial, sans-serif;
+	line-height:1.4;
+	color: #fff;
+}
+div.jp-audio {
+	width:621px;
+}
+div.jp-interface {
+	position: relative;
+	background:url("top50indie-player.png") 0 0 no-repeat;width:621px;height:30px
+	border:1px solid #009be3;
+}
+div.jp-audio div.jp-type-single div.jp-interface {
+	height:30px;
+	border-bottom:none;
+}
+div.jp-interface ul.jp-controls {
+	list-style-type:none;
+	padding:0;
+	margin: 0;
+}
+div.jp-interface ul.jp-controls li {
+	/* position: absolute; */
+	display:inline;
+}
+div.jp-interface ul.jp-controls a {
+	position: absolute;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+a.jp-play,
+a.jp-pause {
+	width:8px;
+	height:11px;
+	z-index:1;
+}
+div.jp-audio div.jp-type-single a.jp-play,
+div.jp-audio div.jp-type-single a.jp-pause {
+	top:10px;
+	left:12px;
+}
+a.jp-play {
+	background: url("top50indie-player.png") 0 -31px no-repeat;
+}
+a.jp-play:hover {
+	background: url("top50indie-player.png") -8px -31px no-repeat;
+}
+a.jp-pause {
+	background: url("top50indie-player.png") -16px -31px no-repeat;
+	display: none;
+}
+a.jp-pause:hover {
+	background: url("top50indie-player.png") -25px -31px no-repeat;
+}
+div.jp-audio div.jp-type-single a.jp-stop {
+	top:26px;
+	left:90px;
+}
+
+a.jp-stop {
+	background: url("jplayer.blue.monday.jpg") 0 -83px no-repeat;
+	width:28px;
+	height:28px;
+	z-index:1;
+}
+a.jp-stop:hover {
+	background: url("jplayer.blue.monday.jpg") -29px -83px no-repeat;
+}
+a.jp-previous {
+	background: url("jplayer.blue.monday.jpg") 0 -112px no-repeat;
+	width:28px;
+	height:28px;
+}
+a.jp-previous:hover {
+	background: url("jplayer.blue.monday.jpg") -29px -112px no-repeat;
+}
+a.jp-next {
+	background: url("jplayer.blue.monday.jpg") 0 -141px no-repeat;
+	width:28px;
+	height:28px;
+}
+a.jp-next:hover {
+	background: url("jplayer.blue.monday.jpg") -29px -141px no-repeat;
+}
+div.jp-progress {
+	position: absolute;
+	overflow:hidden;
+	background-color: #1a1a1a;
+}
+div.jp-audio div.jp-type-single div.jp-progress {
+	top:12px;
+	left:69px;
+	width:435px;
+	height:5px;
+}
+div.jp-seek-bar {
+	background: url("top50indie-player.png") -77px -31px repeat-x;
+	width:0px;
+	/* height:15px; */
+	height:100%;
+	cursor: pointer;
+}
+div.jp-play-bar {
+	background: url("top50indie-player.png") -77px -37px repeat-x;
+	width:0px;
+	/* height:15px; */
+	height:100%;
+}
+
+/* The seeking class is added/removed inside jPlayer */
+div.jp-seeking-bg {
+	background: url("pbar-ani.gif");
+}
+
+a.jp-mute,
+a.jp-unmute {
+	width:13px;
+	height:11px;
+}
+div.jp-audio div.jp-type-single a.jp-mute,
+div.jp-audio div.jp-type-single a.jp-unmute {
+	top:11px;
+	left:555px;
+}
+
+a.jp-mute {
+	background: url("top50indie-player.png") -555px -31px no-repeat;
+}
+a.jp-mute:hover {
+	background: url("top50indie-player.png") -568px -31px no-repeat;
+}
+a.jp-unmute {
+	background: url("top50indie-player.png") -51px -31px no-repeat;
+	display: none;
+}
+a.jp-unmute:hover {
+	background: url("top50indie-player.png") -64px -31px no-repeat;
+}
+div.jp-volume-bar {
+	position: absolute;
+	overflow:hidden;
+	background: url("top50indie-player.png") -514px -31px repeat-x;
+	width:39px;
+	height:5px;
+	cursor: pointer;
+}
+div.jp-audio div.jp-type-single div.jp-volume-bar {
+	top:14px;
+	left:567px;
+}
+div.jp-volume-bar-value {
+	background: url("top50indie-player.png") -514px -37px repeat-x;
+	width:0px;
+	height:5px;
+}
+div.jp-current-time,
+div.jp-duration {
+	position: absolute;
+	font-size:.64em;
+	font-style:oblique;
+}
+div.jp-duration {
+	text-align: right;
+}
+div.jp-audio div.jp-type-single div.jp-current-time,
+div.jp-audio div.jp-type-single div.jp-duration {
+	top:10px;
+	left:39px;
+	width:495px;
+}
+div.jp-jplayer {
+	width:0px;
+	height:0px;
+}
+div.jp-jplayer {
+	background-color: #000000;
+}
