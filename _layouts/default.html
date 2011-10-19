@@ -23,6 +23,25 @@
     <script src='/plugins/jquery-validation/jquery.validate.min.js'></script>
     <script src='/plugins/jquery-jplayer/jquery.jplayer.min.js'></script>
 	<script src='/scripts/main.js'></script>
+	<script>
+	 $(document).ready(function(){
+		// Initialize jPlayer
+		 $("#jquery_jplayer_1").jPlayer({
+		        ready: function () {
+		          $(this).jPlayer("setMedia", {
+		            m4a: "http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+		            oga: "/media/RetroFunk_-_Unholy_Symphony.ogg"
+		          });
+		        },
+		        swfPath: "/js",
+		        supplied: "m4a, oga"
+		      });
+		    });
+	 });
+	 </script>
+	
+	
+	
 	<!--[if lt IE 9]>
 		<script src='http://html5shiv.googlecode.com/svn/trunk/html5.js'></script>
 		<link href='/styles/ie.css' rel='stylesheet' />
