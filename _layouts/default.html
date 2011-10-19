@@ -16,29 +16,27 @@
 	<link rel='apple-touch-icon-precomposed' href='/images/apple-touch-icon.png' />
 	<link rel='stylesheet' href='/styles/reset.css' />
     <link rel='stylesheet' href='/plugins/nivo-slider/nivo-slider.css' />
-    <link rel='stylesheet' href='/skin/jplayer.blue.monday.css'/>
+     <link type="text/css" href="/skin/jplayer.blue.monday.css" rel="stylesheet" />
 	<link rel='stylesheet' href='/styles/global.css' />
 	<script src='/scripts/jquery.min.js'></script>
     <script src='/plugins/nivo-slider/jquery.nivo.slider.pack.js'></script>
     <script src='/plugins/jquery-validation/jquery.validate.min.js'></script>
-    <script src='/js/jquery.jplayer.min.js'></script>
 	<script src='/scripts/main.js'></script>
-	<script>
-	 $(document).ready(function(){
-		// Initialize jPlayer
-		 $("#jquery_jplayer_1").jPlayer({
-		        ready: function () {
-		          $(this).jPlayer("setMedia", {
-		            mp3: "/media/RetroFunk_-_Unholy_Symphony.mp3",
-		            oga: "/media/RetroFunk_-_Unholy_Symphony.ogg"
-		          });
-		        },
-		        swfPath: "/js",
-		        supplied: "mp3, oga"
-		      });
-		    });
-	 });
-	 </script>
+	<script type="text/javascript" src="/js/jquery.jplayer.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#jquery_jplayer_1").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            m4a: "http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+            oga: "http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+          });
+        },
+        swfPath: "/js",
+        supplied: "m4a, oga"
+      });
+    });
+  </script>
 	
 	
 	
@@ -105,9 +103,7 @@
 	</div>
 	
 	
-	
-		
-<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+  <div id="jquery_jplayer_1" class="jp-jplayer"></div>
   <div id="jp_container_1" class="jp-audio">
     <div class="jp-type-single">
       <div class="jp-gui jp-interface">
