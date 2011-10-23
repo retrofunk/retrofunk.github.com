@@ -72,6 +72,7 @@ h1.title {
 .main-top-bar-wrap {
 	background: #000;
 	width: 100%;
+	overflow: hidden;
 }
 .main-top-bar {
 	background: #000;
@@ -106,6 +107,7 @@ h1.title {
 .main-header-wrap {
 	background: #000;
 	width: 100%;
+		overflow: hidden;
 }
 .main-header {
 	background: #000 url('/images/retrofunk-header-nivo.png') no-repeat 0 0;
@@ -164,6 +166,7 @@ h1.title {
 	background: #111;
 	border-top: 5px solid #333;
 	width: 100%;
+		overflow: hidden;
 }
 .main-nav {
 	background: #111;
@@ -262,6 +265,7 @@ h1.title {
 .main-content-wrap {
 	background: #ddd url('/images/arbutus-bg-repeat-square.jpg') repeat 0 0;
 	width: 100%;
+		overflow: hidden;
 }
 .main-content {
 	background: #ddd url('/images/arbutus-bg-repeat-square.jpg') repeat 0 0;
@@ -395,6 +399,7 @@ textarea.error {
 .main-footer-wrap {
 	background: #000;
 	width: 100%;
+		overflow: hidden;
 }
 .main-footer {
 	background: #000;
